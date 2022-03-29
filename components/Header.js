@@ -24,7 +24,7 @@ function Header() {
 			{/* Left */}
 			<div className='flex items-center'>
 				<Image
-					src='/Facebook.svg'
+					src='/CForCat.svg'
 					alt='face'
 					width={40}
 					height={40}
@@ -36,7 +36,7 @@ function Header() {
 					<input
 						className='hidden md:inline-flex ml-2 items-center bg-transparent outline-none placehoder-gray-500 flex-shrink'
 						type='text'
-						placeholder='Search Facebook'
+						placeholder='Search CatPages'
 					/>
 				</div>
 			</div>

@@ -11,5 +11,5 @@ export default NextAuth({
 		// ...add more providers here...
 	],
 	callbacks: {},
-	secret: process.env.SECRET,
+	secret: 'process.env.SECRET',
 });

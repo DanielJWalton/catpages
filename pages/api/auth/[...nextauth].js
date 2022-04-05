@@ -6,9 +6,10 @@ export default NextAuth({
 		FacebookProvider({
 			clientId: process.env.FACEBOOK_CLIENT_ID,
 			clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+			callbackURL: '/auth/facebook/callback/',
 		}),
 		// ...add more providers here...
 	],
 	callbacks: {},
-	secret: 'PLACE HERE',
+	secret: process.env.SECRET,
 });

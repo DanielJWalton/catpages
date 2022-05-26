@@ -4,7 +4,7 @@ import 'firebase/compat/storage';
 
 const firebaseConfig = {
 	apiKey: 'AIzaSyB5lzFZb9cwZKK3uVcXpRpo4G9xZR3hPew',
-	authDomain: 'catpages-dw.firebaseapp.com',
+	authDomain: 'catpages.vercel.app',
 	projectId: 'catpages-dw',
 	storageBucket: 'catpages-dw.appspot.com',
 	messagingSenderId: '754732445323',
